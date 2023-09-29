@@ -1,0 +1,257 @@
+.intro-section{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-color: mediumpurple;
+}
+.nav-bar{
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    top: 0;
+    border: 1px solid black;
+}
+.nav-bar img{
+    height: 60%;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.nav-list{
+    height: 100%;
+    width: 50%;
+    margin-top: 10px;
+    position: absolute;
+    top: 0;
+    right: 80px;
+}
+.nav-list ul li{
+    list-style-type: none;
+    float: left;
+    color: white;
+    padding: 6px 20px;
+}
+.nav-list li:hover{
+    background-color: midnightblue;
+}
+.header{
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    bottom: 0;
+}
+.header h1{
+    text-align: center;
+    margin: 100px;
+    color: white;
+}
+.header button{
+    align-content: center;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 500px;
+    background-color: tomato;
+    color: white;
+    padding: 7px 30px;
+}/* end intro-section*/
+.services-section{
+    width: 100%;
+    height: 400px;
+    padding: 50px 0px;
+    position: relative;
+    background-color: lightseagreen;
+}
+.services-section .title{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+.work{
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+.work img{
+    width: 100px;
+    height: 100px;
+}
+.work h3{
+    font-size: 20px;
+}
+/* end services section*/
+.team-section{
+    width: 100%;
+    height: 600px;
+    padding-top: 50px;
+    position: relative;
+    background-color: lightblue;
+}
+.team-section .title{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+.person{
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+.person img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 25px;
+}
+.person h3{
+    font-size: 20px;
+}
+.person .post{
+    color: blue;
+}
+.person i{
+    color: white;
+    background-color: silver;
+    padding: 5px;
+    border-radius: 50%;
+}
+/* end team section*/
+.skills-section{
+    width: 100%;
+    height: 450px;
+    padding-top: 50px;
+    position: relative;
+    background-color: white;
+    border: 2px solid black;
+}
+.skills-section .title{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+.diameter{
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+.diameter img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 25px;
+}
+.diameter h3{
+    font-size: 20px;
+}
+/* end skills section*/
+.portfolio-section{
+    width: 100%;
+    height: 950px;
+    padding-top: 50px;
+    position: relative;
+    background-color: sandybrown;
+}
+.portfolio-section .title{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+.portfolio-section .title button{
+    background-color: peru;
+    border: none;
+    font-size: 12px;
+    padding: 1px 7px;
+}
+.portfolio-section button:hover{
+    background-color: white;
+}
+.project{
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+.project img{
+    width: 80%;
+    height: 80%;
+    margin-bottom: 10px;
+}
+#project-btn{
+    margin: 0 auto;
+    background-color: #48d1cc;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 12px;
+    margin-left: 460px;
+}
+/* end portfolio section*/
+.review-section{
+    width: 100%;
+    height: 600px;
+    padding-top: 50px;
+    position: relative;
+    background-color: mediumvioletred;
+}
+.review-section .title{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    padding: 20px;
+}
+.comment{
+    height: 150px;
+    padding: 20px;
+    font-size: 15px;
+    position: relative;
+}
+.comment-img{
+    width: 30%;
+    height: 100%;
+    margin-left: 50px;
+    padding: 15px;
+    position: absolute;
+    left: 0;
+}
+.comment-img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.comment-name{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    padding: 15px;
+    font-style: italic;
+    right: 0;
+    color: white;
+}
+/* end review-section*/
+.footer{
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    background-color: navy;
+}
+.footer li{
+    list-style-type: none;
+    float: left;
+    color: white;
+    padding: 5px 20px;
+}
+.footer ul{
+    margin: 0px 140px;
+}
+.footer li:hover{
+    color: skyblue;
+}
+/* end footer-section*/
